@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive form</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- added the font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <!-- left side of the project -->
+    <div class="one">
+      <header>
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+    </div>
+    <!-- right side of the projecr i.e includes the form -->
+    <div class="two">
+      <main>
+        <h4>Try it free 7days then $20/mo. thereafter</h4>
+        <!-- form begins -->
+        <form action="">
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First name"
+            required
+          /><br />
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last name"
+            required
+          /><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            pattern="og***@zuri.com"
+            placeholder="Email Address"
+            required
+          /><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          /><br />
+          <input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit" />
+          <p>
+            By clicking the button your agreeing to our
+            <a href="">Terms and services</a>
+          </p>
+        </form>
+        <!-- form ends  -->
+      </main>
+    </div>
+  </body>
+</html>
